@@ -1,0 +1,63 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 24/06/2021
+// Seção de Declarações 
+var
+    nota1, nota2, media: real
+status: caractere
+inicio
+       Escreva ("Digite a primeira nota: ")
+       Leia (nota1)
+       Escreva ("Digite a segunda nota: ")
+       Leia (nota2)
+       media<-(nota1+nota2)/2
+
+se (media >9) entao
+   status<-"A"
+   senao
+   se (media>7) e (media<=8)entao
+     status<-"B"
+     senao
+      se (media>6) e (media<=7)entao
+        status<-"C"
+         senao
+         se(media>5) e (media<=6) entao
+           status<-"D"
+           senao
+            se(media>4) e (media<=5) entao
+              status<-"E"
+            senao
+              status<-"F"
+            FimSe
+         FimSe
+      FimSe
+   FimSe
+FimSe
+
+EscrevaL(" ")
+EscrevaL (     "----------------------"    )
+Escolha status
+   caso ("A")
+   EscrevaL("Aluno Aprovado")
+   caso ("B")
+   EscrevaL("Aluno Aprovado")
+   caso ("C")
+   EscrevaL("Aluno Aprovado")
+   caso ("D")
+   EscrevaL("Aluno de Recuperação")
+   caso ("E")
+   EscrevaL("Aluno de Recuperação")
+   caso ("F")
+   EscrevaL("Aluno Reprovado")
+
+
+
+ FimEscolha
+ 
+ EscrevaL (     "----------------------"    )
+ EscrevaL (" ")
+ EscrevaL("A nota escolar do aluno é (",status,")")
+ EscrevaL(" ")
+
+fimalgoritmo
