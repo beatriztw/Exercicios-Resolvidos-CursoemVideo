@@ -1,0 +1,22 @@
+var
+     empres, parcela, juros: Real
+
+inicio
+      EscrevaL      ("   -----------------------   ")
+      EscrevaL  (" BEM-VINDO(A) AO SEU BANCO DIGITAL   ")
+      EscrevaL      ("   -----------------------   ")
+      EscrevaL (" ")
+      Escreva ("Qual o valor do empréstimo? R$")
+      Leia (empres)
+      Escreva ("Em quantas parcelas deseja fazer? ")
+      Leia (parcela)
+      juros <- (empres * 20) /100
+      EscrevaL (" ")
+      
+      EscrevaL      ("   -----------------------   ")
+      EscrevaL ("    Operação finalizada.        ")
+      EscrevaL      ("   -----------------------   ")
+      EscrevaL (" ")
+      
+      EscrevaL ("Você irá pagar R$ " ,juros , " por mês.")
+fimalgoritmo
