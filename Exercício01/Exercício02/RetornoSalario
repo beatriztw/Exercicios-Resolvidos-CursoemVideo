@@ -1,0 +1,15 @@
+algoritmo "RetornarMnesagemSalario"
+// Função :
+// Autor : Beatriz Xavier
+// Data : 
+// Seção de Declarações 
+var
+   nome: caracter
+   salario: Real
+inicio
+      Escreva ("Qual é o seu nome? ")
+      Leia (nome)
+      Escreva ("Qual o seu Salario? ")
+      Leia (salario)
+      Escreva ("A funcionária " , nome , " tem um salário de " , salario , " em Junho.")
+fimalgoritmo
