@@ -1,0 +1,15 @@
+algoritmo "RetornarMnesagemSalario"
+// Função :
+// Autor :
+// Data : 22/06/2021
+// Seção de Declarações 
+var
+   nome: caracter
+   salario: Real
+inicio
+      Escreva ("Qual seu nome? ")
+      Leia (nome)
+      Escreva ("Qual o seu Salario? ")
+      Leia (salario)
+      Escreva ("A funcionária " , nome , " tem um salário de " , salario , " em Junho.")
+fimalgoritmo
